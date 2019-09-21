@@ -3,7 +3,7 @@
 ## Install Visual studio
 
 1. Google Visual Studio
-2. Download and install Visual Studio Community Edition for C++ 
+2. Download and install Visual Studio Community Edition for C++
 
 ## Test the compiler
 

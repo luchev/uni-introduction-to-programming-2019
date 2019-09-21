@@ -1,3 +1,0 @@
-# Programming problems
-
-1. 
