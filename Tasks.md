@@ -98,27 +98,27 @@
 
 ## Recursion
 
-1. Print the numbers from 1 to 100 on the console in ascending order.
-2. Print the even numbers from 100 to 5 on the console in descending order.
-3. Write a function to compute factorial.
-4. Write a function which takes one integer parameter. The function calculates the sum of all numbers between 0 and the parameter.
-5. Write a function which takes an in as a parameter and prints on the console all its divisors.
-6. Write a function which takes an int as a parameter and finds how many digits it has.
+1. Print the numbers from **1 to 100** on the console in **ascending order**.
+2. Print the even numbers from **100 to 5** on the console in **descending order**.
+3. Write a function to **compute factorial**.
+4. Write a function which takes **1 int parameter**. The function calculates the **sum** of all numbers **between 0 and the parameter**.
+5. Write a function which takes **an in** as a parameter and prints on the console **all its divisors**.
+6. Write a function which takes **an int** as a parameter and finds **how many digits** it has.
 7. Write a function to calculate the `N`th Fibonacci number where `N` is the parameter of the function.
-8. Write a function which calculates the power of a given int and power. e.g `pow(2, 10)` returns `1024`.
+8. Write a function which takes **2 int parameters** - Base and Power and calculates $Base^{Power}$ . e.g `pow(2, 10)` returns `1024`.
 
 ## Recursion (Double recursion)
 
-1. Write a program which generates a random number between 1 and 100 and asks the user to guess the number. The program tells the user if he guessed bigger, smaller or the exact number.
+1. Write a program which generates a random number between 1 and 100 and prompts the user to guess the number. The program tells the user if he guessed bigger, smaller or the exact number.
 2. Print all possible numbers with up to 5 digits containing the numbers `1,2`.
 3. Write a recursive function which takes an int array and a number `N`. The function prints all possible combinations of `N` elements of the given array.
 
 ## Arrays (Fixed size)
 
-1. Create an array with 3 ints `3, 4, 7` and print them on the console.
-2. Create an array with 100 ints from 1 to 100. Divide each element of the array by 2 and print the array.
-3. Write a function which accepts an array of integers with 5 elements and subtracts 1 from each element.
-4. Write a function which accepts 2 arrays of integers with 3 elements and adds the elements of the second array to the  first. As a result `arrayOneProcessed[i] = arrayOne[i] + arrayTwo[i]`.
+1. Create an array with **3 ints** `3, 4, 7` and print them on the console.
+2. Create an array with **100 ints** from 1 to 100. Divide each element of the array by 2 and print the array.
+3. Write a function which accepts an **array of ints with 5 elements** and subtracts 1 from each element.
+4. Write a function which accepts **2 arrays of integers with 3 elements** and adds the elements of the second array to the  first. As a result `arrayOneProcessed[i] = arrayOne[i] + arrayTwo[i]`.
 
 ## Pointers
 
@@ -127,32 +127,33 @@
 
 ## Strings
 
-1. Write a function which finds the length of a string.
-2. Write a function which compares two strings.
-3. Write a function which takes a string and returns a copy of it as a pointer.
-4. Write a function which takes a string and prints it reversed.
-5. Create a string variable of length at most 100 letters. Ask the user to input a word and save it in that string variable. Print the length of the string.
+1. Write a function which finds the **length of a string**.
+2. Write a function which **compares two strings**.
+3. Write a function which takes a **string** and returns a **copy of it**.
+4. Write a function which takes a **string** and prints it **reversed**.
+5. Create a string variable of length **at most 100 letters**. Ask the user to input a word and save it in that string variable. Print the length of the string.
 6. Prompt the user how long their name is. Then prompt for their name and print on the console `Hello, <UserNameHere>!`.
-7. Write a function which takes a string and determines if it is a palindrome. A palindrome is a string which is read the same way forwards and backwards.
-8. Write a function which takes in a string and prints what characters we need to add to the end of the string for it to become a palindrome.
-9. Write a function which converts a binary string (composed from 0s and 1s) to a decimal number.
-10. Write a function which converts an integer to a binary number as a string (reversed), e.g `convertToBinary(13)` returns `“1011”`.
-11. Write a recursive function which prints the binary representation of a number in reverse.
+7. Write a function which takes **a string** and determines if it is a **palindrome**. A palindrome is a string which is **read the same way forwards and backwards**.
+8. Write a function which takes in a **string** and prints what characters we need to add to the end of the string for it to become a palindrome.
+9. Write a function which converts a **binary string** (composed from 0s and 1s) to a **decimal number**.
+10. Write a function which converts an **int** to a **binary number** as a string (reversed), e.g `convertToBinary(13)` returns `“1011”`.
+11. Write a **recursive function** which prints the **binary representation** of a **number in reverse****.
 
 ## Arrays (One dimensional with arbitary size)
 
-1. Write a function which accepts an array of integers of arbitary size and makes all the integers negative. (Hint: the function must also accept the size of the array. Array and pointer here are interchangeable)
-2. Write a function which takes an array (pointer), its size and element we are looking for and retuns the index at which that element is found in the array or -1 if the array doesn’t have such element.
-3. Write a function which accepts an array of chars with arbitary size and returns the sum of all the elements.
-4. Write a function which takes an array of integers and outputs all the even numbers on the console.
-5. Write a function which takes an array of chars and calculates the average of all odd numbers.
-6. Write a function which takes an array of integers and reverses it.
-7. Write a recursive function which finds the max number in an array.
+1. Write a function which accepts **an array of integers** of arbitary size and makes all the integers negative. (Hint: the function must also accept the size of the array. Array and pointer here are interchangeable)
+2. Write a function which takes **an array** (pointer), its size and element we are looking for and retuns the **index at which that element is found** in the array or -1 if the array doesn’t have such element.
+3. Write a function which accepts **an array of chars** with arbitary size and returns the **sum of all the elements**.
+4. Write a function which takes **an array of ints** and outputs **all the even numbers** on the console.
+5. Write a function which takes **an array of chars** and calculates the **average of all odd numbers**.
+6. Write a function which takes **an array of ints** and **reverses** it in place.
+7. Write a **recursive function** which finds the **max number in an array**.
 
 ## Arrays (Two dimensional)
 
-1. Prompt the user for a matrix size he’d like to have. Create the matrix and prompt the user to input its values. Print the matrix to the console.
+1. Prompt the user for a matrix size they’d like to have. Create the matrix and prompt the user to input its values. Print the matrix to the console.
 2. Create a struct representing a 3x3 matrix. Write a method to add two matrices.
 3. Create a struct representing 5x5 matrix. Write a method to transpose the matrix.
+4. Create a struct representing a `NxN` matrix where N is specified by the user. Write a method which calculates the sum of each row and prints it to the console.
 
 
